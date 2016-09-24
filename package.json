@@ -1,9 +1,10 @@
 {
   "name": "@gunisalvo/tupan-monitor",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Dashboard generating APP for the Tupan Framework.",
   "main": "src/main.js",
   "scripts": {
+    "build": "echo build",
     "preversion": "npm test",
     "version": "npm run build && git add -A dist",
     "postversion": "git push && git push --tags && rm -rf build/temp"
@@ -24,10 +25,5 @@
   "homepage": "https://github.com/Entrementes/tupan-monitor#readme",
   "dependencies": {
     "@linclark/pkg": "^1.0.2"
-  },
-  "scripts": {
-    "preversion": "npm test",
-    "version": "npm run build && git add -A dist",
-    "postversion": "git push && git push --tags && rm -rf build/temp"
   }
 }
