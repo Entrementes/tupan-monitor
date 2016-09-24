@@ -1,10 +1,10 @@
 {
-  "name": "tupan-monitor",
+  "name": "@gunisalvo/tupan-monitor",
   "version": "1.0.0",
   "description": "Dashboard generating APP for the Tupan Framework.",
   "main": "src/main.js",
   "scripts": {
-    "test": "test/test.js"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/Entrementes/tupan-monitor/issues"
   },
-  "homepage": "https://github.com/Entrementes/tupan-monitor#readme"
+  "homepage": "https://github.com/Entrementes/tupan-monitor#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  },
+  "scripts": {
+    "preversion": "npm test",
+    "version": "npm run build && git add -A dist",
+    "postversion": "git push && git push --tags && rm -rf build/temp"
+  }
 }
