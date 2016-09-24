@@ -1,0 +1,23 @@
+{
+  "name": "tupan-monitor",
+  "version": "1.0.0",
+  "description": "Dashboard generating APP for the Tupan Framework.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Entrementes/tupan-monitor.git"
+  },
+  "keywords": [
+    "Dashboard",
+    "SmartGrid"
+  ],
+  "author": "gunisalvo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Entrementes/tupan-monitor/issues"
+  },
+  "homepage": "https://github.com/Entrementes/tupan-monitor#readme"
+}
