@@ -1,6 +1,6 @@
 {
   "name": "@gunisalvo/tupan-monitor",
-  "version": "1.0.7",
+  "version": "1.0.11",
   "description": "Dashboard generating APP for the Tupan Framework.",
   "main": "src/main.js",
   "scripts": {
